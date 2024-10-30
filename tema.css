@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    color: #0e0d0d;
+}
+
+header {
+    background-color: #0e0d0d;
+    color: #c8e3cf;
+    padding: 30px;
+    text-align: center;
+}
+
+article{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+header h1 {
+    font-size:43px;
+    margin-bottom: 25px;
+}
+
+.Menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding: 20px ;
+}
+
+.Menu a {
+    color: #e3ede4;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Menu a {
+    background-color: #444;
+    border-radius: 10px;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+ 
+}
+
+ #beneficios {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#beneficios article {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    text-align: left;
+    }
+
+  #beneficios .col {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+#beneficios img {
+    max-width: 90%;
+    border-radius: 30px;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #0f1011;
+}
+
+img {
+    max-width: 1000%;
+    height: 600px;
+    padding: auto;
+    border-radius: 50px;
+    margin: 50px;
+    justify-self: center;
+   
+}
+.columna img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#evolucion .columna{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+#evolucion img{
+    width: 60%;
+    margin: 0;
+}
+
+#evolucion span{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    display: flex;
+    justify-content: center; 
+    padding: 15px;
+    font-size: 15px; 
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
+footer a {
+    flex-direction: row-reverse;
+    color: #fffffe;
+    text-decoration: none;
+}
+
+footer img{
+    max-width: 100%;
+    height: 150px;
+    padding: auto;
+    border-radius: 20px;
+    margin:70px;
+}
+
+
+
